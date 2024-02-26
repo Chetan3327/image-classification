@@ -16,13 +16,13 @@ const App = () => {
   
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPrediction(null)
-    setImage(e.target.files[0])
+    setImage(e.target.files?.[0] || null)
 
-    const file = e.target.files[0]
+    const file = e.target.files?.[0] || null
     if(file){
       const reader = new FileReader()
       reader.onload = (e) => {
-        setSelectedImage(e.target.result)
+        setSelectedImage(e.target?.result as string)
       }
       reader.readAsDataURL(file)
     }
@@ -39,7 +39,7 @@ const App = () => {
     if(file){
       const reader = new FileReader()
       reader.onload = (e) => {
-        setSelectedImage(e.target.result)
+        setSelectedImage(e.target?.result as string)
       }
       reader.readAsDataURL(file)
     }
