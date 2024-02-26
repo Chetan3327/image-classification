@@ -65,7 +65,7 @@ const App = () => {
     formData.append('file', image)
 
     try {
-      const response = await axios.post(`${BACKEND_URL}/predict`, formData);
+      const response = await axios.post(`${BACKEND_URL}/predict_cifar`, formData);
 
       if (response.status === 200) {
         const result = response.data;
