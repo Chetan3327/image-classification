@@ -53,4 +53,4 @@ The Tech Stacks used are:
 
 Name: Chetan Chauhan - chauhanchetan12789@gmail.com
 
-Project Link: https://movie-recommendation-app-3327.netlify.app/
+Project Link: https://image-classification-3327.netlify.app/
