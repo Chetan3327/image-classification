@@ -1,0 +1,7 @@
+pydantic==1.6.1
+fastapi==0.61.1
+uvicorn==0.11.8
+tensorflow==2.11.0
+numpy
+Pillow
+python-multipart
