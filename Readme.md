@@ -48,6 +48,8 @@ The Tech Stacks used are:
    pip install -r requirements.txt
    ```
 
+Notebook of model training can be found here:
+https://colab.research.google.com/drive/1U1sTiSVeC9-opyB6X97WudgYAiabV-O1?usp=sharing
 <!-- CONTACT -->
 # Contact
 
